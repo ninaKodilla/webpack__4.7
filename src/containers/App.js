@@ -1,8 +1,6 @@
 import React from 'react';
 import style from './App.css';
-
 import { hot } from 'react-hot-loader';
-
 import Title from '../components/Title';
 import List from '../components/List';
 
@@ -42,6 +40,7 @@ class App extends React.Component {
     }
 
     render() {
+
         return (
             <div className={style.TodoApp}>
                 <Title counter={this.state.data.length}/>
